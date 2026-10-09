@@ -1,0 +1,20 @@
+MON PROJET TRANSPORT — HELIX (PWA)
+
+Ce dossier contient les fichiers d'une application web progressive (PWA).
+Pour installer sur Android, il faut d'abord publier TOUS les fichiers sur un serveur HTTPS.
+
+METHODE GITHUB PAGES :
+1. Créer un nouveau dépôt PUBLIC sur GitHub, par exemple "mon-projet-transport-helix".
+2. Ajouter tous les fichiers de ce dossier A LA RACINE du dépôt (index.html, sw.js, manifest.webmanifest, images, .nojekyll).
+3. Dans Settings > Pages : Deploy from a branch > main > / (root) > Save.
+4. Ouvrir l'URL Pages du dépôt sur le téléphone avec Chrome.
+5. Menu ⋮ > Installer l'application ou Ajouter à l'écran d'accueil.
+
+MISES A JOUR :
+Remplacer les fichiers dans le même dépôt. Pour les changements importants, modifier la version CACHE dans sw.js.
+Relancer l'application connectée à Internet, puis la rouvrir si une nouvelle version est détectée.
+
+CONFIDENTIALITE :
+Le code de la PWA publiée sur un dépôt public est visible publiquement.
+Les notes saisies dans l'application restent localement sur l'appareil ; effectuer régulièrement une sauvegarde exportée.
+Ne PAS saisir de données personnelles sensibles dans le code publié.
